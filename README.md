@@ -36,12 +36,20 @@ Anything out of this range are public (external) IP´s and needs to be checked f
 Malicious actor used many techniques to gain access first to the Worpress site and than to the entire web server.
 
 **Tools and tecniques used:**
-- Wp-login: Bruteforce attack to the wordpress site
-- 
+- Wp-login: Bruteforce attack to the wordpress site, using wp-login.php with multiple usernames (like "admin") and password attempts. 
+- Hydra, a password cracking tool, available fo many OS.
+- Gobuster, a bruteforce tool to etc. find hidden files, directories and DNS subdirectories.
+- Crontab, an automation tool that can be used to automate Linux server processes. Hacker can use this in many different ways.
+- Polkit or PolicyKit, "provides an organized way for non-privileged processes to communicate with privileged ones." /Wikipedia. 
 
-**More to read:**
+**More to read and watch:**
 - [Wordpress penetration testing](https://www.getastra.com/blog/security-audit/wordpress-penetration-testing/)
 - [Wordpress black box testing basics](https://wpscan.com/blog/wordpress-black-box-testing-basics/)
+- [WordPress wp-login.php Brute Force Attack](https://www.inmotionhosting.com/support/edu/wordpress/wp-login-brute-force-attack/)
+- [Gobuster GitHub repo](https://github.com/OJ/gobuster)
+- [Signature analysis](https://www.sciencedirect.com/topics/computer-science/signature-analysis)
+- [Hydra GitHub repo](https://github.com/vanhauser-thc/thc-hydra)
+- [Enterprise Linux Security Episode 17 - Polkit & LUKS CVE's](https://youtu.be/161DQfCsRaY?si=SfH6TGKxc6Hnbpbs)
 
 ### User analysis
 - logins
@@ -51,8 +59,8 @@ Malicious actor used many techniques to gain access first to the Worpress site a
 
 - **Whois** = Query and laguage protocol that searches database, there are domain names and other information related to to that. / FI: Kysely ja vastaus protokolla, jolla haetaan tietoa tietokannasta. Tiedoissa on yleensä esim. domain ja sen haltijan tiedot.
 - **Threat intel** = Threat intelligence, gathering information to make analysis and understand the threat. / FI: Uhkatiedustelu (uhasta kerättävät tiedot ja analaysointi, jotta uhka opitaan tunnistamaan.)
-- **Signature / Signature Analysis** = Signature is a unique digital signature/proof/verification like biometric (fingerpints, face recognition), file hashing, etc. "Signature analysis is looking for something that is already known to be suspicious or malicious."
-- - **Signature / Signature Analysis** = Signature is a unique digital signature/proof/verification like biometric (fingerpints, face recognition), file hashing, etc. "Signature analysis is looking for something that is already known to be suspicious or malicious."
+- **Signature** = Signature is a unique digital signature/proof/verification like biometric (fingerpints, face recognition), file hashing, etc.
+- **Signature Analysis** = Signature analysis is looking for something that is known to be malicious.
 
 
 ## 03 March
