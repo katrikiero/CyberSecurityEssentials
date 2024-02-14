@@ -41,7 +41,6 @@ Malicious actor used many techniques to gain access first to the Worpress site a
 - Gobuster, a bruteforce tool to etc. find hidden files, directories and DNS subdirectories.
 - Crontab, an automation tool that can be used to automate Linux server processes. Hacker can use this in many different ways.
 - Polkit or PolicyKit, "provides an organized way for non-privileged processes to communicate with privileged ones." /Wikipedia.
-- 
 
 **More to read and watch:**
 - [Wordpress penetration testing](https://www.getastra.com/blog/security-audit/wordpress-penetration-testing/)
